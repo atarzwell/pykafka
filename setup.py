@@ -18,7 +18,7 @@ import sys
 
 from setuptools import setup, find_packages
 
-from version import version
+from pykafka.version import version
 
 install_requires = [
     'kazoo'
